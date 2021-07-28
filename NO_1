@@ -1,0 +1,9 @@
+a.       Prinsip single responsibility:
+
+Artinya adalah satu class/method mempunyai tepat satu tanggung jawab(responsibility). Jika class/method tersebut memiliki dua tanggung jawab maka lakukan refactoring dengan membuat satu class / method baru.
+
+-      Keuntungan : mengurangi kompleksitas saat terjadi perubahan.
+
+b.       Prinsip open/closed: artinya setiap entitas perangkat lunak (class, module, fungsi, dsb.) sebaiknya terbuka untuk dilakukan ekstensi, dan tertutup untuk modifikasi.
+
+keuntungan dari prinsip ini  untuk menghindari kemungkinan terjadinya bug-bug baru ketika kita merubah implementasi code yang sudah ada
